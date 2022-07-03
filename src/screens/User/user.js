@@ -30,7 +30,7 @@ const UserScreen = (props) => {
           <Text style={styles.personal}>Personal Informations:</Text>
           <Text><Text style={styles.title}>Name:</Text>{user.name}</Text>
           <Text><Text style={styles.title}>Username:</Text>{user.username}</Text>
-          <Text><Text style={styles.title}>Email:</Text>{user.email}</Text>
+          <Text><Text style={styles.title}>Email :</Text>{user.email}</Text>
         </View>
 
         <View style={styles.addressArea}>
